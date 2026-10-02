@@ -26,7 +26,10 @@ document.getElementById("modal").addEventListener("click",e=>{
   if(e.target.id==="modal")closeModal();
 });
 
-const musicBtn=document.getElementById("musicBtn");
-musicBtn.addEventListener("click",()=>{
-  alert("Add your favourite song as music.mp3 in the project folder, then connect it in script.js ❤️");
+const musicBtn = document.getElementById("musicBtn");
+
+const spotifySong = "YOUR_SPOTIFY_SONG_LINK";
+
+musicBtn.addEventListener("click", () => {
+    window.open(spotifySong, "_blank");
 });
