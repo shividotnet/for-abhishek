@@ -26,7 +26,10 @@ document.getElementById("modal").addEventListener("click",e=>{
   if(e.target.id==="modal")closeModal();
 });
 
-const musicBtn=document.getElementById("musicBtn");
-musicBtn.addEventListener("click",()=>{
-  alert("Add your favourite song as music.mp3 in the project folder, then connect it in script.js ❤️");
+const musicBtn = document.getElementById("musicBtn");
+
+const spotifySong = "https://open.spotify.com/track/6IPwKM3fUUzlElbvKw2sKl?si=X_INvn9mSXu0G5XoTyJCsw&utm_source=copy-link";
+
+musicBtn.addEventListener("click", () => {
+    window.open(spotifySong, "_blank");
 });
