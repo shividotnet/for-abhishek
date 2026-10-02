@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>For Abhishek ❤️</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=DM+Sans:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="noise"></div>
+    <div id="hearts"></div>
+
+    <nav>
+      <div class="logo">A <span>♥</span></div>
+      <a href="#letter">Letter</a>
+      <a href="#memories">Memories</a>
+      <a href="#story">Our Story</a>
+      <button class="music-btn" id="musicBtn" title="Music">♪</button>
+    </nav>
+
+    <main>
+      <section class="hero">
+        <div class="hero-glow"></div>
+        <p class="eyebrow">
+          A little corner of the internet, made only for you
+        </p>
+        <h1>For my<br /><em>Abhishek</em> ❤️</h1>
+        <p class="hero-sub">Happy Boyfriends Day, baby.</p>
+        <button
+          class="primary"
+          onclick="
+            document
+              .querySelector('#letter')
+              .scrollIntoView({ behavior: 'smooth' })
+          "
+        >
+          Open your letter <span>↓</span>
+        </button>
+        <div class="date-pill">
+          10 · 10 · 2025 &nbsp; • &nbsp; The day we fell in love
+        </div>
+      </section>
+
+      <section class="letter-section" id="letter">
+        <div class="section-label">01 — A letter for you</div>
+        <div class="letter-card">
+          <div class="stamp">FOR<br />YOU</div>
+          <p class="hand">My baby,</p>
+          <h2>Thank you for<br />being in my life.</h2>
+          <p class="letter-text">
+            Abhishek, I love you baby. ❤️ Thank you for being in my life, for
+            the little moments, the laughs, the hugs, and all the memories that
+            somehow become my favourite ones.
+          </p>
+          <p class="letter-text">
+            We fell in love on <strong>10-10-25</strong>, and since that day,
+            you have had a very special place in my heart. I don't need a
+            perfect story — I just want <em>our</em> story, with all its silly
+            moments, quiet moments and everything in between.
+          </p>
+          <p class="letter-text">
+            Happy Boyfriend Day, Abhishek. Here's to us. 🥂❤️
+          </p>
+          <p class="signature">Always yours,<br /><span>♥</span></p>
+        </div>
+      </section>
+
+      <section class="memories" id="memories">
+        <div class="section-label">02 — Little pieces of us</div>
+        <div class="section-head">
+          <h2>Some memories<br /><em>I want to keep forever.</em></h2>
+          <p>Two moments, one story — and hopefully a million more.</p>
+        </div>
+
+        <div class="gallery">
+          <figure class="photo photo-one">
+            <img src="assets/memory-1.jpg" alt="A memory of us" />
+            <figcaption>
+              <span>memory no. 01</span>
+              <b>Just us. 🤍</b>
+            </figcaption>
+          </figure>
+          <figure class="photo photo-two">
+            <img src="assets/memory-2.jpg" alt="A memory of us together" />
+            <figcaption>
+              <span>memory no. 02</span>
+              <b>My favourite kind of view. ❤️</b>
+            </figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section class="story" id="story">
+        <div class="section-label">03 — Our little timeline</div>
+        <h2>And then, <em>there was us.</em></h2>
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="dot"></div>
+            <div>
+              <span>10 · 10 · 2025</span>
+              <h3>The beginning ❤️</h3>
+              <p>
+                The day we fell in love. A date that became a little piece of
+                our forever.
+              </p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="dot"></div>
+            <div>
+              <span>Every day after</span>
+              <h3>More little moments</h3>
+              <p>
+                The ordinary things somehow became special because they were
+                with you.
+              </p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="dot"></div>
+            <div>
+              <span>Today</span>
+              <h3>Still choosing you</h3>
+              <p>
+                And this is just another chapter. There are so many more
+                memories waiting for us.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="reasons">
+        <div class="section-label">04 — Just because</div>
+        <h2>Things I love<br /><em>about you.</em></h2>
+        <div class="reason-grid">
+          <button class="reason" onclick="reveal(this)">
+            <span>01</span><strong>Your presence</strong><small>tap me</small
+            ><i>♡</i>
+            <p>You make even normal days feel a little more special.</p>
+          </button>
+          <button class="reason" onclick="reveal(this)">
+            <span>02</span><strong>Your hugs</strong><small>tap me</small
+            ><i>♡</i>
+            <p>Somehow everything feels okay when I'm close to you.</p>
+          </button>
+          <button class="reason" onclick="reveal(this)">
+            <span>03</span><strong>Our chaos</strong><small>tap me</small
+            ><i>♡</i>
+            <p>The silly, random moments are some of my favourites.</p>
+          </button>
+          <button class="reason" onclick="reveal(this)">
+            <span>04</span><strong>Simply you</strong><small>tap me</small
+            ><i>♡</i>
+            <p>I love you for being you. That's the whole reason.</p>
+          </button>
+        </div>
+      </section>
+
+      <section class="final">
+        <div class="big-heart" id="bigHeart">♥</div>
+        <p class="eyebrow">One last thing...</p>
+        <h2>Abhishek,<br /><em>I love you.</em></h2>
+        <p>
+          Thank you for being a part of my life.<br />Happy Boyfriend Day, baby.
+          ❤️
+        </p>
+        <button class="primary" onclick="surprise()">
+          Click for one more surprise ✨
+        </button>
+      </section>
+    </main>
+
+    <div class="modal" id="modal">
+      <div class="modal-box">
+        <button class="close" onclick="closeModal()">×</button>
+        <div class="modal-heart">♥</div>
+        <h2>For you, Abhishek.</h2>
+        <p>
+          If I could save one feeling forever, it would be the feeling of being
+          with you.
+        </p>
+        <p class="modal-big">10.10.25 → ♾️</p>
+        <p>My favourite date. My favourite person. My favourite story. ❤️</p>
+      </div>
+    </div>
+
+    <footer>made with love • for Abhishek • 10.10.25 ❤️</footer>
+    <script src="script.js"></script>
+  </body>
+</html>
