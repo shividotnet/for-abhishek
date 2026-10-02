@@ -28,7 +28,7 @@ document.getElementById("modal").addEventListener("click",e=>{
 
 const musicBtn = document.getElementById("musicBtn");
 
-const spotifySong = "YOUR_SPOTIFY_SONG_LINK";
+const spotifySong = "https://open.spotify.com/track/6IPwKM3fUUzlElbvKw2sKl?si=X_INvn9mSXu0G5XoTyJCsw&utm_source=copy-link";
 
 musicBtn.addEventListener("click", () => {
     window.open(spotifySong, "_blank");
